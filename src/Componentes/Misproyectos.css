@@ -1,0 +1,72 @@
+
+
+.grid_container{
+    display: grid;
+    width: 90vw;
+    margin: 100px auto 150px auto;
+    justify-content: center;
+    position: relative;
+}
+.grid_container figure{
+    width: 440px;
+    height: 247px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.parrafo_pagina{
+    position: absolute;
+    top: 0;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    color: blanchedalmond;
+    background: #0d1831;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.grid_container figure:hover{
+    border: #020711 solid 1px;
+}
+#revista_img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+.grid_container figure:hover #revista_img {
+    transform: scale(1.1); /* Zoom de la imagen al hacer hover */
+  }
+  
+.grid_container figure:hover .parrafo_pagina {
+    opacity: 1;
+  }
+.grid_container figure .parrafo_pagina a{
+    border: solid 3px #6E07F3;
+    border-radius: 50px;
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+.grid_container figure .parrafo_pagina a:hover{
+    background-color: #6E07F3;
+}
+.contenedor_puntitos{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+}
+.contenedor_puntitosuno{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+.parrafo_revista{
+    font-family: 'Archivo', sans-serif;
+}

@@ -1,0 +1,44 @@
+.main_navegador{
+    display: flex;
+    height: 30vh;
+    position: relative;
+    max-height: 30vh;
+}
+#logo_b{
+    width: 100px;
+    height: 100px;
+}
+.container_logo{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_nose{
+    width: 300px;
+    position: absolute;
+    right: 300px;
+    height: 100%;
+}
+.container_hablame{
+    width: 300px;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton_hablame{
+    border: solid #40E0D0 1px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 50px;
+    color: #40E0D0;
+    text-decoration: none;
+}
+.boton_hablame:hover{
+    background-color: #40E0D0;
+    color:#FFFFFF ;
+    transition:0.3s;
+    text-decoration: none;
+}

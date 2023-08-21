@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+  width: 7px;
+  background-color: #121F3D;
+}
+body::-webkit-scrollbar-thumb{
+  background:#5BE9B9
 }
 
 code {

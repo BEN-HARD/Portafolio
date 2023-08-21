@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.main_footer{
+    height: 100vh;
+    width: 100vw;
+    background-color: #18C7C8;
+    display: flex;
+    justify-content: center;
+}
+.contenedor_elementos{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    border-radius: 50%;
+    background-color: #121F3D;
+    width: 70px;
+    height: 70px;
+    margin: 200px auto 0 auto;
+}
+.contenedor_elementos h1{
+    height: 150px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding-top: 70px;
+    box-sizing: border-box;
+    font-weight: 900;
+}
+.contenedor_elementos div{
+    height: 80px;
+    width: 160px;
+    margin: auto;
+    position: relative;
+}
+.contenedor_elementos div a{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    cursor: pointer;
+}
+#insta{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    border: #121F3D solid 2px;
+    border-radius: 50%;
+    padding: 10px;
+    overflow: inherit;
+}
+#face{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    border: #121F3D solid 2px;
+    border-radius: 50%;
+    padding: 10px;
+    overflow: inherit;
+    margin-left: 80px;
+}
+#logo_acompañante{
+    border-radius: 50%;
+    background-color: #121F3D;
+    width: 20px;
+    height: 20px;
+}
+.container_react font{
+    display: flex;
+    width: 200px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+.container_react p{
+    display: flex;
+    position: relative;
+    padding-top: 10px;
+    padding-right: 20px;
+    justify-content: center;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+.container_react p a{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0;
+    right: 0;
+}
+#logo_react{
+    width: 40px;
+    height: 40px;
+}
